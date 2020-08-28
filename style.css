@@ -1,0 +1,17 @@
+.playfield {
+    margin: auto;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background: url('/chessboard.png');
+}
+
+.knight {
+    position: relative;
+    left: calc(100px * var(--knight-pos-x));
+    top: calc(100px * var(--knight-pos-x));
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: url('knight.png')
+}
