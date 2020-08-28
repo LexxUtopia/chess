@@ -9,7 +9,7 @@
 .knight {
     position: relative;
     left: calc(100px * var(--knight-pos-x));
-    top: calc(100px * var(--knight-pos-x));
+    top: calc(100px * var(--knight-pos-y));
     width: 100px;
     height: 100px;
     text-align: center;
